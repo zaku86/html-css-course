@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Flexbox Exercize
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body style="padding-bottom: 300px;">
+    <style>
+      p{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-family: Roboto, Arial;
+      }
+      .message-button{
+        background-color: rgb(9, 105, 218);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 13px;
+        padding-right: 13px;
+        color: white;
+        font-size: 14px;
+        border: none;
+        border-radius: 20px;
+      }
+
+      .home-p{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-top: 8px;
+      }
+      .search-box{
+        width: 800px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        
+        margin-left: 50px;
+        border: none;
+        border-radius: 30px;
+        font-size: 18px;
+      }
+
+      .download-button{
+        background-color: #8250df;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        margin-right: 80px;
+        color: white;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid;
+      }
+      .kitten-div{
+        width: 80px;
+        margin-right: 20px;
+        
+      }
+      .kitten{
+       width: 80px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      .sleepy-cat{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+      }
+      .bulldog{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      .oliver{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .cat-name{
+        color: gray;
+        font-size: 24px;
+      }
+      .follow-button{
+        
+        background-color: #0091ff;
+        color:white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 24px;
+        border-radius: 10px;
+        border: none;
+
+      }
+    </style>
+<div style="display: flex;
+flex-direction: row;">
+<div style="background-color: lightblue;
+width:200px;"> 200px</div>
+<div style="background-color: lightpink;
+width: 75px;"> 75px</div>
+</div>
+
+<div style="display: flex;
+flex-direction: row;
+margin-top: 30px;">
+
+<div style="background-color: lightblue;
+width: 50px;">item 1</div>
+<div style="background-color: lightpink; flex: 1;">item 2</div>
+<div style="background-color: lightblue; width: 75px;">item 3</div>
+
+</div>
+
+<div style="display: flex;
+flex-direction: row;
+margin-top: 30px;
+justify-content: space-between;">
+
+<div style="background-color: lightblue;">item 1</div>
+<div style="background-color: lightblue;"> item 2</div>
+<div style="background-color: lightblue;"> item 3</div>
+<div style="background-color: lightblue;"> item 4</div>
+
+</div>
+
+
+<div style="display: flex;
+flex-direction: row;
+margin-top: 30px;
+height: 50px;
+border-width: 2px;
+border-color: gray;
+border-style: solid;
+
+justify-content: space-between;
+">
+
+  <div style="background-color: lightblue;">item 1</div>
+  <div style="background-color: lightpink;"> item 2</div>
+
+</div>
+
+
+<div style="width: 300px;
+border-color: gray;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px;
+margin-top: 30px;
+margin-bottom: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 15px;
+padding-left: 15px;
+">
+
+<div style="display: flex;
+flex-direction: row;
+justify-content: space-between;
+">
+  <div>
+    <p>Home</p>
+  </div>
+  <div>
+    <button class="message-button">14</button>
+  </div>
+</div>
+
+
+<div style="display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 20px;">
+  <div><p>Notifications</p></div>
+  <div><button class="message-button">3</button></div>
+</div>
+
+
+
+<div style="display: flex;
+flex-direction: row;
+justify-content: space-between;">
+
+  <div><p>Messages</p></div>
+  <div><button class="message-button">5</button></div>
+
+</div>
+
+
+</div>
+
+<div style="display: flex;
+flex-direction: row;
+width: 1200px;
+
+background-color: #8250df;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 30px;
+justify-content: center;"
+>
+
+<div style="width: 100px;"><p class="home-p">Home</p></div>
+<div style="flex:1;"><input class="search-box" type="text" placeholder="Search"></div>
+<div style="width: 140px;"><button class="download-button">Download</button></div>
+
+</div>
+
+
+<div style="width: 500px;
+border-color:gray;
+border-width: 1px;
+border-style: solid;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;">
+
+<div style="display: flex;
+flex-direction: row;
+">
+  <div class="kitten-div"> 
+    <img class="kitten" src="https://hips.hearstapps.com/hmg-prod/images/domestic-cat-lies-in-a-basket-with-a-knitted-royalty-free-image-1592337336.jpg?crop=0.668xw:1.00xh;0.247xw,0&resize=1200:*" alt="">
+  </div>
+  <div style="flex: 1;
+  line-height: 30px;">
+    <p class="oliver">oliver</p>
+    <p class="cat-name">the cat</p>
+    <p class="cat-name">Popular</p>
+  </div>
+  <div style="width: 120px;
+  display: flex;
+  align-items: center;">
+    <button class="follow-button">Follow</button>
+  </div>
+
+</div>
+
+<div style="display: flex;
+flex-direction: row;
+margin-top: 20px;
+margin-bottom: 20px;
+">
+  <div class="kitten-div"> 
+    <img class="sleepy-cat" src="https://penntoday.upenn.edu/sites/default/files/2022-03/Cat-COVID-social.jpeg" alt="">
+  </div>
+  <div style="flex: 1;
+  line-height: 30px;">
+    <p class="oliver">mimi</p>
+    <p class="cat-name">Sleepy cat</p>
+    <p class="cat-name">Popular</p>
+  </div>
+  <div style="width: 120px;
+  display: flex;
+  align-items: center;">
+    <button class="follow-button">Follow</button>
+  </div>
+
+</div>
+
+<div style="display: flex;
+flex-direction: row;
+">
+  <div class="kitten-div"> 
+    <img class="bulldog" src="https://cdn.britannica.com/07/234207-050-0037B589/English-bulldog-dog.jpg" alt="">
+  </div>
+  <div style="flex: 1;
+  line-height: 30px;">
+    <p class="oliver">Rex</p>
+    <p class="cat-name">Happy Bulldog</p>
+    <p class="cat-name">Popular</p>
+  </div>
+  <div style="width: 120px;
+  display: flex;
+  align-items: center;">
+    <button class="follow-button">Follow</button>
+  </div>
+
+</div>
+
+</div>
+ </body>
+</html>

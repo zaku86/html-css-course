@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      15E-Positions
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      .blouse-img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        object-position: bottom;
+      }
+      .dress-img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+      }
+      .flex-container {
+        display: flex;
+        
+        
+      }
+      .img-container {
+        margin-top: 20px;
+       margin-left: 200px;
+       position: relative;
+       display: inline-block;
+      }
+      .discount-price {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        background-color: black;
+        color: white;
+        font-family: Roboto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .transparent-div {
+        position: absolute;
+        height: 100px;
+        bottom: 0;
+        left:0;
+        right:0;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+       justify-content: center;
+       align-items: center;
+        
+      }
+      
+      .card-button {
+       background-color: white;
+       padding-top: 8px;
+       padding-bottom: 8px;
+       padding-left: 20px;
+       padding-right: 20px;
+       border-width: 1px;
+       border-style: solid;
+       
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div style="position: relative;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+   ">
+     <img class="blouse-img" src="https://media.capeunionmart.co.za/i/oldkhaki/102785109_C99_1?$large_PROD$" alt="">
+     <div style="position: absolute;
+     top: 30px;
+     right: 0px;
+     background-color: black;
+     color: white;
+     font-family: Roboto;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     ">20% OFF
+     </div>
+    </div>
+
+
+
+    <div class="img-container">
+
+      <img class="dress-img" src="https://image.made-in-china.com/2f0j00DewYHWiJwvcd/Short-Prom-Party-Cocktail-Dress-A-Line-Lace-Bodice-Homecoming-Dresses.webp" alt="">
+
+      <div class="discount-price">20% OFF</div>
+      <div class="transparent-div">
+        <button class="card-button">Add to Cart</button>
+      </div>
+
+    </div>
+
+
+
+    </div>
+    
+  </body>
+</html>

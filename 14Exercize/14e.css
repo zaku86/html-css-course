@@ -1,0 +1,133 @@
+
+.cats-photo {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.container {
+  display: flex;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+ height: 80px;
+  flex-direction: row;
+  background-color: white;
+  
+}
+.div-cat {
+  width:60px;
+  margin-left: 20px;
+}
+.cats-name {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.div-button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.Add-button {
+  padding-top:8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  background-color: #0d6ce0;
+  border-radius: 5px;
+  border: none;
+  
+}
+.message-div {
+  width: 100px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+.message-button {
+  padding-top:8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: black;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.dogs-photo {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.kittens-photo {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 40px;
+  object-position: left;
+}
+
+.kengurus-photo {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.right-sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 80px;
+  width: 100px;
+  padding-top: 20px;
+  background-color: grey;
+}
+
+.second-sidebar {
+  position: fixed;
+  left: 100px;
+  width: 200px;
+  top: 80px;
+  bottom: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: rgb(71, 70, 70);
+  line-height: 40px;
+
+}
+.info-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.info {
+  font-family: Roboto;
+  color: white;
+}
+.plus {
+ font-size: 18px;  
+ margin-right: 20px;
+ color: grey;
+}
+.updates {
+  font-family: Roboto;
+  font-size: 18px;
+  color: grey;
+}

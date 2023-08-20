@@ -1,0 +1,183 @@
+.red-div{
+  width: 100px;
+  height: 100px;
+display: inline-block;
+background-color: red;
+margin-right: 20px;
+}
+.green-div{
+  width:100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.service-div{
+width: 300px;
+border-width: 1px;
+border-color: rgb(214, 210, 210);
+border-style: solid;
+padding-left: 20px;
+padding-bottom: 20px;
+font-size: 18px;
+font-family: Roboto;
+margin-left: 20px;
+margin-top:15px;
+display: inline-block;
+vertical-align:top;
+}
+.music-div{
+width: 360px;
+background-color: black;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+opacity: 0.8;
+display: inline-block;
+margin-left: 20px;
+margin-top: 15px;
+}
+.install-music{
+  color: white;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.add-music{
+  font-size: 16px;
+  color:gray;
+  font-family: Roboto;
+}
+
+
+.cat-div{
+width: 400px;
+box-shadow: 3px 2px 6px 6px  rgba(0, 0, 0, 0.15);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+display:inline-block;
+margin-left: 20px;
+border-radius: 10px;
+vertical-align: top;
+margin-top: 15px;
+}
+
+.cats-photo{
+  width: 50px;
+  height: 50px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.text-box{
+  font-size: 18px;
+  outline: none;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tweet-button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 18px;
+  background-color: rgb(74, 159, 230);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.cat{
+  width:200px;
+  height:200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.oliver-div{
+  
+  border-style: solid;
+  border: none;
+  margin-left:5px;
+  box-shadow: 3px 2px 6px 6px  rgba(0, 0, 0, 0.15);
+  margin-top: 5px;
+  margin-right: 10px;
+  line-height: 10px;
+}
+.name{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+ margin-top: 15px;
+ margin-bottom: 15px;
+
+}
+.friends{
+  font-family: Roboto;
+  font-size: 16px; 
+  color: gray;
+  
+  margin-top: 8px;
+}
+.oliver-button{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  display: block;
+}
+.kitten{
+  width: 200px;
+  height:200px;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.cat-rex{
+width:200px;
+  height:200px;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.baby-div{
+ 
+  
+  vertical-align: top;
+  margin-right: 3px;
+  margin-left: 10px;
+}
+.baby-kitten{
+  width:30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.friends-div{
+  
+  vertical-align: top;
+}

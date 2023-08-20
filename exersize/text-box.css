@@ -1,0 +1,92 @@
+.search-bar{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 22px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(232, 228, 228);
+  border-style: solid;
+  outline: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+.Google-search-bar{
+  width: 300px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 16px;
+ padding-right: 16px;
+ font-size: 16px;
+ border-radius: 30px;
+ border: none;
+ outline: none;
+ box-shadow: 0 1px 5px  rgb(213, 208, 208);
+ margin-left: 20px;
+ cursor: pointer;
+ 
+}
+
+p{
+  font-size: 14px;
+  color: grey;
+  font-family: Roboto;
+}
+
+.search{
+  height: 30px;
+  width: 340px;
+  border-width: 2px;
+  border-color:rgb(136, 133, 133);
+  border-style: solid;
+  outline: none;
+  cursor: pointer;
+  
+}
+.linkedin-button{
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+ background-color: rgb(5, 102, 187);
+ border-radius: 30px;
+ border-style: solid;
+ border: none;
+ color: white;
+ font-size: 18px;
+ cursor: pointer;
+ margin-bottom: 40px;
+}
+.cats-photo{
+  width: 50px;
+  height: 50px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.text-box{
+  font-size: 18px;
+  outline: none;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tweet-button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 18px;
+  background-color: rgb(74, 159, 230);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  vertical-align: middle;
+  cursor: pointer;
+}

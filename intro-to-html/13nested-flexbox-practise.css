@@ -1,0 +1,224 @@
+.div-flexbox {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.pink-div {
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightpink;
+}
+.item1 {
+  background-color: black;
+  color: white;
+}
+.blue-div {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.div-flexbox1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pink-div1 {
+  width: 100px;
+  background-color: lightpink;
+}
+.blue-div1 {
+  width: 200px;
+  background-color: lightblue;
+}
+.row1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.div-nested-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row2 {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  }
+
+
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div-container-one {
+    width: 420px;
+    height: 180px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .div-container{
+    width: 420px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  .div-inboxes{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  .div-all-inboxes {
+    display: block;
+   
+      
+  }
+  .all-inboxes {
+    color: gray;
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+  }
+  .sales {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .sales-of-year{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .div-cats-information{
+    display: block;
+   margin-top: 20px;
+   
+  }
+
+  .flex-div-cat {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+
+  }
+
+  .div-cats-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
+  .dogs-photo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+  }
+  .labradors-photo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+  }
+  .cats-photo {
+    height: 46px;
+    border-radius: 23px;
+  }
+  .div-paragrafs{
+    line-height: 25px;
+  }
+
+  .div-flex-promotions {
+    display: flex;
+    width: 325px;
+    justify-content: space-between;
+  
+  }
+  .tweet-container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    font-family: Roboto;
+  }
+
+  .cat-div {
+    margin-left: 20px;
+    margin-right: 16px;
+    margin-top: 15px;
+  }
+  .tweet-cat {
+    width: 80px;
+    border-radius: 40px;
+  }
+  .flex-paragraph {
+    display: flex;
+    flex-direction: row;
+  }
+  .supersimple-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .email {
+    font-size: 20px;
+    color:rgb(134, 132, 132);
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+  .tweet-info {
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 28px;
+  }
+  .tweet-flex {
+    display: flex;
+    flex-direction: row;
+    
+    border-color: rgb(215, 213, 213);
+    border-width: 1px;
+    border-style:  solid;
+    border-radius:20px ;
+  }
+  .empty-div {
+    height: 130px;
+    width: 130px;
+    background-color: rgb(215, 213, 213);
+    margin-left: -1px;
+    border-radius: 20px 0 0 20px;
+  }
+  .div-youtube-info {
+    width: 300px;
+    padding-left: 20px;
+  }
+  .youtube-email {
+    font-size: 20px;
+    color: rgb(134, 132, 132);
+    margin-bottom: 5px;
+  }
+  .youtube-info {
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 28px;
+  }

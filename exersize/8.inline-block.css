@@ -1,0 +1,78 @@
+.name-box,
+.email-box{
+  display: block;
+  
+}
+
+.name-box{
+  margin: 5px;
+}
+.email-box{
+  margin-left: 5px;
+}
+
+.chat{
+  width: 200px;
+  font-size: 16px;
+  display:inline-block;
+  vertical-align: middle;
+
+}
+.yes-button{
+  vertical-align: middle;
+  cursor: pointer;
+}
+.no-button{
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.logo{
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left:450px;
+}
+.search-button{
+  width: 800px;
+  margin-left: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  border-radius: 30px;
+  padding-left: 20px;
+  border:none;
+  outline: none;
+  box-shadow: 0 1px 5px rgb(213, 208, 208);
+  color:rgb(213, 208, 208);
+  margin-top: 5px;
+  margin-bottom: 30px;
+  display: block;
+ 
+}
+.div{
+  text-align: center;
+}
+
+.google-button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  border: none;
+ margin-left: 550px;
+ cursor: pointer;
+}
+
+.lucky-button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  border: none;
+ margin-left: 20px;
+ cursor: pointer;
+}
